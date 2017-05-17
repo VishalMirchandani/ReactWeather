@@ -15,7 +15,7 @@ var React = require("react");
 var WeatherMessage = ({location, temp}) => {
   return (
     <div>
-      <h3>Temperature in {location} is {temp}</h3>
+      <h4 className="text-center">Temperature in {location} is {temp}</h4>
     </div>
   );
 }
